@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2f361658c644474691c1dac48705710, type: 3}
+  m_Name: CentralPiece_Std
+  m_EditorClassIdentifier: 
+  pieceType: 2
+  colors:
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 1, g: 1, b: 1, a: 0}
+  - {r: 0.9433962, g: 0.085540205, b: 0, a: 0}
+  - {r: 0.21172167, g: 0.8018868, b: 0.12482201, a: 0}
+  - {r: 0.056648254, g: 0.112634055, b: 0.6320754, a: 0}
