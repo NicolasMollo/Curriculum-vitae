@@ -1,12 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using Map;
 
 [CreateAssetMenu(menuName = "Create scriptable object/Map piece")]
 public class DatabaseMapPiece : ScriptableObject {
-    [Header("MAP PIECE DATA")]
 
+    [Header("MAP PIECE DATA")]
     [SerializeField]
     [Tooltip("Type of map piece")]
     private MapPieceType pieceType = MapPieceType.Last;

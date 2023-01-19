@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using Managers;
 
 namespace Map {
 
@@ -26,7 +23,6 @@ namespace Map {
 
         private void Start() {
             VariablesAssignment();
-            GameManager.Instance.mapManager.SubscribeToTheList(this);
         }
         private void VariablesAssignment() {
             pieceType = database.PieceType;
