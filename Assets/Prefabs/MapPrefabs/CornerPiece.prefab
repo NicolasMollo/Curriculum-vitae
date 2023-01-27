@@ -483,9 +483,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c4a3e689dc8e224b88c74219f02f7a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  database: {fileID: 11400000, guid: 65ff2943fa7760d4593ed06b4bc199be, type: 2}
+  baseCollider: {fileID: 161179357225571939}
   baseMeshRenderer: {fileID: 161179357225571938}
-  pieceType: 3
 --- !u!1 &161179357225571937
 GameObject:
   m_ObjectHideFlags: 0

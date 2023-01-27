@@ -580,6 +580,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c4a3e689dc8e224b88c74219f02f7a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  database: {fileID: 11400000, guid: 1bd553a38815f8d4f9112397c3e1d6cc, type: 2}
+  baseCollider: {fileID: 2213345986002642839}
   baseMeshRenderer: {fileID: 2213345986002642840}
-  pieceType: 3

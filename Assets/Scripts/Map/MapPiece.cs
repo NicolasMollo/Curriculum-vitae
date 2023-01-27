@@ -13,21 +13,16 @@ namespace Map {
     public class MapPiece : MonoBehaviour {
 
         [SerializeField]
-        private DatabaseMapPiece database = null;
+        [Tooltip("Mesh Collider of the base of the map piece")]
+        private MeshCollider baseCollider = null;
+
+        public float colliderSize {
+            get { return baseCollider.bounds.size.x; }
+        }
+
         [SerializeField]
-        [Tooltip("Meshrenderer of the base of the map piece")]
-        private MeshRenderer baseMeshRenderer = null;
-        [HideInInspector]
-        public MapPieceType pieceType = MapPieceType.Last;
-
-
-        private void Start() {
-            VariablesAssignment();
-        }
-        private void VariablesAssignment() {
-            pieceType = database.PieceType;
-            baseMeshRenderer.material.color = database.GetRandomColor();
-        }
+        [Tooltip("Mesh Renderer of the base of the map piece")]
+        public MeshRenderer baseMeshRenderer = null;
 
     }
 

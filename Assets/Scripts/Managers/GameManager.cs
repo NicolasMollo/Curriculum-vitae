@@ -14,7 +14,8 @@ namespace Managers {
 
 
         //Manager references
-        public MapManager mapManager = null;
+        //public MapManager mapManager = null;
+        public SceneManager sceneManager = null;
 
 
         private void Awake() {
